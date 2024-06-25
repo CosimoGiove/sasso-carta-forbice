@@ -83,7 +83,7 @@ export default {
 
   <main>
     <h1 class="titolo">Benvenuto/a in sasso carta forbice</h1>
-    <div class="play container">
+    <div class="play container text-center">
       <img src="/Morra-cinese.webp" alt="">
       <i @click="removeclass()" class="fa-solid fa-circle-play">play</i>
     </div>
@@ -264,7 +264,8 @@ box-shadow: 1px 1px 2px 2px lightgreen;
 }
 
 .play img {
-  height: 80vh;
+  height: 85vh;
+  border-radius: 20px;
   width: 100%;
   position: relative;
 
